@@ -2,8 +2,8 @@ import React from "react";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import type { MainStackParamList } from "../types/navigation";
 import MainTabNavigator from "./MainTabNavigator";
-import ChatScreen from "../screens/main/ChatScreen";
-import SessionsScreen from "../screens/sessions/SessionsScreen";
+import ChatScreen from "../screens/screens/main/ChatScreen";
+import SessionsScreen from "../screens/screens/sessions/SessionsScreen";
 
 const Stack = createNativeStackNavigator<MainStackParamList>();
 

@@ -4,10 +4,10 @@ import { Ionicons } from "@expo/vector-icons";
 import type { MainTabParamList } from "../types/navigation";
 
 // Screens
-import HomeScreen from "../screens/main/HomeScreen";
-import MatchingScreen from "../screens/main/MatchingScreen";
-import MatchesScreen from "../screens/main/MatchesScreen";
-import ProfileScreen from "../screens/main/ProfileScreen";
+import HomeScreen from "../screens/screens/main/HomeScreen";
+import MatchingScreen from "../screens/screens/main/MatchingScreen";
+import MatchesScreen from "../screens/screens/main/MatchesScreen";
+import ProfileScreen from "../screens/screens/main/ProfileScreen";
 
 const Tab = createBottomTabNavigator<MainTabParamList>();
 

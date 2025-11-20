@@ -2,8 +2,8 @@ import React from "react";
 import { View, Text, Image } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { LinearGradient } from "expo-linear-gradient";
-import Button from "../../components/ui/Button";
-import type { AuthScreenProps } from "../../types/navigation";
+import Button from "../../../components/ui/Button";
+import type { AuthScreenProps } from "../../../types/navigation";
 
 export default function WelcomeScreen({
   navigation,
